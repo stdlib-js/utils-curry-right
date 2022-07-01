@@ -1,4 +1,0 @@
-// Copyright (c) 2022 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-/// <reference types="./index.d.ts" />
-import t from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-function@esm/index.mjs";import e from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-positive-integer@esm/index.mjs";import i from"https://cdn.jsdelivr.net/gh/stdlib-js/string-format@esm/index.mjs";var r=t,n=e.isPrimitive,s=i;var a=function(t,e,i){var a,l;if(!r(t))throw new TypeError(s("invalid argument. First argument must be a function. Value: `%s`.",t));if(arguments.length<2)l=t.length;else if(arguments.length>2){if(a=i,!n(l=e))throw new TypeError(s("invalid argument. Arity argument must be a positive integer. Value: `%s`.",l))}else n(e)?l=e:(l=t.length,a=e);return m([]);function m(e){return function(i){var r=e.slice();if(r.unshift(i),r.length<l)return m(r);return t.apply(a,r)}}};export{a as default};
-//# sourceMappingURL=index.mjs.map
