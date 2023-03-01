@@ -34,14 +34,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/utils-curry-right
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import curryRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-curry-right@esm/index.mjs';
+var curryRight = require( '@stdlib/utils-curry-right' );
 ```
 
 #### curryRight( fcn\[, arity]\[, thisArg] )
@@ -175,13 +191,8 @@ var str = fcn( 'there' )( 'Hello' );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import curryRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-curry-right@esm/index.mjs';
+```javascript
+var curryRight = require( '@stdlib/utils-curry-right' );
 
 var fcn;
 var out;
@@ -197,10 +208,6 @@ for ( i = 0; i < add.length; i++ ) {
     out = out( i*10 );
 }
 console.log( out );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -223,9 +230,9 @@ console.log( out );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/utils/curry`][@stdlib/utils/curry]</span><span class="delimiter">: </span><span class="description">transform a function into a sequence of functions each accepting a single argument.</span>
--   <span class="package-name">[`@stdlib/utils/uncurry`][@stdlib/utils/uncurry]</span><span class="delimiter">: </span><span class="description">transform a curried function into a function invoked with multiple arguments.</span>
--   <span class="package-name">[`@stdlib/utils/uncurry-right`][@stdlib/utils/uncurry-right]</span><span class="delimiter">: </span><span class="description">transform a curried function into a function invoked with multiple arguments.</span>
+-   <span class="package-name">[`@stdlib/utils-curry`][@stdlib/utils/curry]</span><span class="delimiter">: </span><span class="description">transform a function into a sequence of functions each accepting a single argument.</span>
+-   <span class="package-name">[`@stdlib/utils-uncurry`][@stdlib/utils/uncurry]</span><span class="delimiter">: </span><span class="description">transform a curried function into a function invoked with multiple arguments.</span>
+-   <span class="package-name">[`@stdlib/utils-uncurry-right`][@stdlib/utils/uncurry-right]</span><span class="delimiter">: </span><span class="description">transform a curried function into a function invoked with multiple arguments.</span>
 
 </section>
 
@@ -240,7 +247,7 @@ console.log( out );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -302,11 +309,11 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/utils/curry]: https://github.com/stdlib-js/utils-curry/tree/esm
+[@stdlib/utils/curry]: https://github.com/stdlib-js/utils-curry
 
-[@stdlib/utils/uncurry]: https://github.com/stdlib-js/utils-uncurry/tree/esm
+[@stdlib/utils/uncurry]: https://github.com/stdlib-js/utils-uncurry
 
-[@stdlib/utils/uncurry-right]: https://github.com/stdlib-js/utils-uncurry-right/tree/esm
+[@stdlib/utils/uncurry-right]: https://github.com/stdlib-js/utils-uncurry-right
 
 <!-- </related-links> -->
 
