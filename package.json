@@ -43,7 +43,7 @@
   },
   "devDependencies": {
     "@stdlib/bench": "^0.2.1",
-    "@stdlib/math-base-ops-add3": "github:stdlib-js/math-base-ops-add3#main",
+    "@stdlib/math-base-ops-add3": "^0.1.0",
     "@stdlib/math-base-special-pow": "^0.1.0",
     "@stdlib/random-base-randu": "^0.1.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
