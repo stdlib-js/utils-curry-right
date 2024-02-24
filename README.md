@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import curryRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-curry-right@deno/mod.js';
+import curryRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-curry-right@v0.2.1-deno/mod.js';
 ```
 
 #### curryRight( fcn\[, arity]\[, thisArg] )
@@ -187,7 +187,7 @@ var str = fcn( 'there' )( 'Hello' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import curryRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-curry-right@deno/mod.js';
+import curryRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-curry-right@v0.2.1-deno/mod.js';
 
 var fcn;
 var out;
