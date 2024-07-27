@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import curryRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-curry-right@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-curry-right/tags). For example,
+
+```javascript
 import curryRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-curry-right@v0.2.2-esm/index.mjs';
 ```
 
@@ -192,7 +197,7 @@ var str = fcn( 'there' )( 'Hello' );
 <body>
 <script type="module">
 
-import curryRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-curry-right@v0.2.2-esm/index.mjs';
+import curryRight from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-curry-right@esm/index.mjs';
 
 var fcn;
 var out;
